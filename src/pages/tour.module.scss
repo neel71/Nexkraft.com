@@ -1,0 +1,111 @@
+.banner{
+    // background-image: url('../../static/devices.gif');
+    position: absolute;
+    width: 100%;
+    z-index: -9999;
+    // height: 250px;
+}
+.p__{
+    color:black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -0.02em;
+    word-spacing: 0.015em;
+    margin-bottom: 3rem !important;
+    font-size: 2.8125rem;
+    font-weight: 600;
+    line-height: 1;
+    font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+    color: #212529;
+}
+.row_anim{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    text-rendering: geometricPrecision;
+    margin-top: 3rem !important;
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+    transition: all 0.8s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+    transform-origin: 50% 100%;
+    transition: box-shadow 1s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+}
+
+ 
+
+  .header_main_2{
+//     width: 100%;
+//     // padding-right: 15px;
+//     // padding-left: 15px;
+//     margin-right: auto;
+//     margin-left: auto;
+//     height: 100%;
+//     margin-bottom: 8px;
+//     background-color: rgba(255, 255, 255, 0.9) !important;
+//     color: #343a40;
+ }
+@media (min-width: 1200px){
+    .header_main > .header_main_2 {
+        max-width: 1140px;
+    }
+}
+.link{
+    // margin: 15px 0;
+    width: 63px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left !important;
+    // background-image: url(../../odoo_logo.png);
+    // font-weight: 600;
+    // // color: #875A7B;
+    // text-decoration: none;
+    // background-color: transparent;
+}
+
+.header_right{
+    height: 100%;
+    line-height: 20px;
+    float: right;
+    display: flex;
+    
+}
+
+.header_right_1{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.header_right_1:hover{
+    text-decoration: none;
+    color: white;
+}
+.try_it_free{
+    font-size: 0.8125rem;
+    // margin-top: -4px;
+    height: 25.6406px;
+    text-align: center;
+    font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #212529;
+}
+
+.try_it_free:hover{
+    color: #7c6576;
+    text-decoration: none;
+}
+
+.name{
+    
+    font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #212529;
+    font-size: 0.9375rem;
+    margin-left: 8px;
+}

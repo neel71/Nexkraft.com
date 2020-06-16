@@ -1,0 +1,28 @@
+.button_style{
+
+    border:.5px solid white;
+    background-color:#86597A;
+    border-radius:5px;
+    text-align:center;
+
+}
+.button_style:hover{
+    border:.5px solid #882d70;
+    background-color:white;
+    border-radius:8px;
+    text-align:center;
+    
+}
+
+.p_style{
+    margin:0;
+    padding:8px 12px;
+    color:white;
+    font-weight: 600;
+}
+.p_style:hover{
+    margin:0;
+    padding:10px 14px;
+    color:#882d70;
+    font-weight: 700;
+}

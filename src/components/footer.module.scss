@@ -1,0 +1,74 @@
+@media (min-width: 992px){
+    .footer_style {
+        // position: absolute;
+        top: auto;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        // position: fixed;
+        z-index: 0;
+    }
+}
+
+.footer_style{
+    
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 580px;
+    background-color: #212529 !important;
+    color: #6c757d;
+    
+}
+.text{
+    text-decoration: none;
+    color: #adb5bd;
+    opacity: .9;
+    font-size: .8em;
+    font-weight: 600;
+    margin-top: 105px;
+}
+.english{
+    text-decoration: none;
+    color: #adb5bd;
+    opacity: .5;
+    font-size: .9em;
+    font-weight: 600;
+}
+.english:hover{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    
+}
+.all_link{
+    text-decoration: none;
+    color: #adb5bd;
+    font-size: .9em;
+    font-weight: 600;
+}
+.all_link:hover{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    
+}
+
+.menu_title{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.logo__{
+    margin-left: 5px;
+    margin-bottom: -2px;
+    background-position: 100% 0;
+    background-image: url('../../static/nexkraft_logo.png');
+    width: 84px;
+    height: 15px;
+    background-size: auto 15px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}

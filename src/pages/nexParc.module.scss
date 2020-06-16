@@ -1,0 +1,539 @@
+// ###############################   Header
+.header_main{
+    position: fixed;
+   width: 100%;
+   height: 50px;
+   z-index: 99999999;
+   // background-color: rgba(255, 255, 255, 0.6);
+   background-color: white;
+   color: #343a40;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-size: 12px;
+   // transition: all 0.2s ease;
+   // transition-property: background, box-shadow;
+   // transform: translate3d(auto, auto, 0);
+}
+
+.header_main_2{
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   height: 100%;
+   margin-bottom: 17px;
+}
+@media (min-width: 1200px){
+   .header_main > .header_main_2 {
+       max-width: 1140px;
+   }
+}
+.link{
+   // margin: 15px 0;
+   width: 63px;
+   height: 20px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: inline-block;
+   float: left !important;
+   // background-image: url(../../odoo_logo.png);
+   // font-weight: 600;
+   // // color: #875A7B;
+   // text-decoration: none;
+   // background-color: transparent;
+}
+
+.header_right{
+   height: 100%;
+   line-height: 20px;
+   float: right;
+   display: flex;
+   
+}
+
+.header_right_1{
+   display: inline-block;
+   text-decoration: none;
+   color: white;
+}
+.header_right_1:hover{
+   text-decoration: none;
+   color: white;
+}
+.try_it_free{
+   
+   // float: left;
+   font-weight: 600;
+   font-size: .8rem;
+   border-radius: 3px;
+   text-decoration: none;
+   color: white;
+   background-color: #00A09D;
+   border-color: #00A09D;
+
+   margin-top: -4px;
+   padding-bottom: 0;
+   height: 25.6406px;
+   width: 91.6406px;
+   /* top: -31.8125px; */
+   /* left: -35.6719px; */
+   text-align: center;
+}
+
+.try_it_free:hover{
+   text-decoration: none;  
+   color:whitesmoke;
+   background-color: #007a77;
+   border-color: #006d6b;
+   border-radius: 3px 3px 3px 3px;
+   
+}
+
+.scrolled{
+   background-color: white;
+   position: fixed;
+}
+
+.logo__{
+   margin-left: 1px;
+   margin-bottom: -2px;
+   background-position: 100% 0;
+   background-image: url('../../static/Nexkraft_logo.png');
+   // width: 100px;
+   // height: 18px;
+   background-size: auto 15px;
+   background-repeat: no-repeat;
+   display: inline-block;
+   
+}
+.menu_item{
+   display: inline-block;
+   padding: 0 20px;
+   font-weight: 600;
+   text-transform: uppercase;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-size: 12px;
+   text-decoration: none;
+   color: #343a40;
+}
+.menu_item:hover{
+   text-decoration: none;
+   color: #343a40;
+   
+}
+#menu_color{
+   z-index:99999;
+   text-align:center;
+   margin-top:12px;
+   color:white;
+}
+//############################## Header 
+// ####################################  Footer
+@media (min-width: 992px){
+   .footer_style {
+       // position: absolute;
+       top: auto;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       // position: fixed;
+       z-index: 0;
+   }
+}
+
+.footer_style{
+   
+   display: block;
+   width: 100%;
+   height: auto;
+   min-height: 580px;
+   background-color: #212529 !important;
+   color: #6c757d;
+   
+}
+.text{
+   text-decoration: none;
+   color: #adb5bd;
+   opacity: .9;
+   font-size: .8em;
+   font-weight: 600;
+   margin-top: 105px;
+}
+.english{
+   text-decoration: none;
+   color: #adb5bd;
+   opacity: .5;
+   font-size: .9em;
+   font-weight: 600;
+}
+.english:hover{
+   text-decoration: none;
+   color: white;
+   opacity: 1;
+   
+}
+.all_link{
+   text-decoration: none;
+   color: #adb5bd;
+   font-size: .9em;
+   font-weight: 600;
+}
+.all_link:hover{
+   text-decoration: none;
+   color: white;
+   opacity: 1;
+   
+}
+
+.menu_title{
+   font-weight: 600;
+   font-size: 1.2em;
+   color: white;
+   margin-bottom: 10px;
+}
+
+.logo__{
+   margin-left: 5px;
+   margin-bottom: -2px;
+   background-position: 100% 0;
+   background-image: url('../../static/Nexkraft_logo.png');
+   width: 47px;
+   height: 15px;
+   background-size: auto 15px;
+   background-repeat: no-repeat;
+   display: inline-block;
+}
+//  ###################################  Footer
+
+// ####################################   Body
+
+Container{
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.title{
+   position: absolute;
+   font-weight: 300;
+   letter-spacing: -0.02em;
+   word-spacing: 0.015em;
+   margin-bottom: 16px !important;
+   font-size: 2.8125rem;
+   line-height: 1;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   color: #212529;
+   width: 48%;
+   padding-top:210px;
+}
+.title_2{
+   padding-top: 320px;
+   position: absolute;
+   font-weight: 300;
+   letter-spacing: 0em;
+   word-spacing: 0.005em;
+   font-size: 1.1875rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   line-height: 1.2;
+   color: #212529;
+}
+.title_link{
+   padding: 0.9em 2em;
+   font-size: 1rem;
+   line-height: 1.1;
+   border-radius: 0.125rem;
+   width: 250px;
+   max-width: 100%;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-weight: 600;
+   white-space: normal;
+   z-index: 1;
+   transition: background 0.3s cubic-bezier(0.55, 0, 0.1, 1), color 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+   margin-top: 32px !important;
+   margin-bottom: 8px !important;
+   color: white;
+   background-color: #00A09D;
+   border-color: #00A09D;
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   user-select: none;
+}
+.title_link:hover{
+   text-decoration: none;
+   color: white;
+   background-color: rgb(0, 124, 122);
+   border-color: rgb(0, 124, 122);
+}
+.sec_2{
+   box-shadow: -40px 40px 160px 0 rgba(0, 0, 0, 0.08), -8px 8px 15px 0 rgba(120, 120, 120, 0.04), 3px 3px 30px 0 rgba(0, 0, 0, 0.04) !important;
+}
+.img_main{
+   width:60%;
+}
+.img_main:hover{
+   background-color: #3a3e42;
+   opacity: 0.9;
+   transform: translateZ(0);
+   transition: all 0.3s ease 0s;
+}
+
+.main_img_div .img_main{
+   background-color: #495057;
+   transition: background 0.5s ease 0s;
+}
+.sec3{
+   text-align: center;
+   overflow: hidden;
+   background-color: white !important;
+   color: #343a40;
+}
+.sec3_title{
+   letter-spacing: -0.01em;
+   word-spacing: 0.01em;
+   margin-top: 10px !important;
+   font-size: 2.1875rem;
+   font-weight: 600;
+   line-height: 1;
+   color:black;
+}
+.sec3_title_2{
+   margin-bottom: 15px !important;
+   font-size: 1.171875rem;
+   font-weight: 300;
+   letter-spacing: 0em;
+   word-spacing: 0.005em;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   line-height: 1.2;
+   color: #212529;
+}
+
+.row_col{
+   margin-left: 8.33333333%;
+   // margin-top: 32px !important;
+   position: relative;
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   text-align: center;
+}
+.m_96{
+   margin-top: 30px !important;
+   font-size: 1 rem;
+   margin-bottom: 0.5rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-weight: 600;
+   line-height: 1.2;
+   text-align: center !important;
+   color: #212529;
+}
+.m_97{
+   text-align: justify !important;
+   margin-bottom: 1rem;
+}
+.m_98{
+   margin-top: 96px !important;
+   font-size: 0.9375rem;
+   margin-bottom: 0.5rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-weight: 600;
+   line-height: 1.2;
+   text-align: right !important;
+   color: #212529;
+}
+.m_99{
+   text-align: right !important;
+   margin-bottom: 1rem;
+}
+
+.sec4{
+   overflow: hidden;
+   background-color: #e9ecef !important;
+   color: #343a40;
+   z-index: 1;
+   position: relative;
+   height: auto;
+   background-color: #f8f9fa;
+   white-space: normal;
+   // box-shadow: 0 10px 10px #16181b;
+}
+
+.sec4_title{
+   letter-spacing: -0.01em;
+   word-spacing: 0.01em;
+   font-size: 2.1875rem;
+   font-weight: 400;
+   line-height: 1;
+   margin-bottom: 0.5rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   color: #212529;
+}
+
+.sec4_title_1{
+   margin-bottom: 32px !important;
+   margin-top: 8px !important;
+   font-size: 1.171875rem;
+   font-weight: 300;
+   letter-spacing: 0em;
+   word-spacing: 0.005em;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   color: #212529;
+   line-height: 1.2;
+}
+
+.sec4_title_2{
+   margin-top: 16px !important;
+   margin-bottom: 1rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+}
+
+.sec4_title_3{
+   margin-bottom: 1rem;
+    font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+}
+.sec5_title{
+   letter-spacing: -0.01em;
+   word-spacing: 0.01em;
+   font-size: 2.1875rem;
+   font-weight: 400;
+   line-height: 1;
+   margin-bottom: 0.5rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   color: #212529;
+}
+.sec6_title{
+   letter-spacing: -0.01em;
+   word-spacing: 0.01em;
+   font-size: 2.1875rem;
+   font-weight: 600;
+   line-height: 1;
+   margin-bottom: 0.5rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   color: #212529;
+}
+.sec6_title_1{
+   margin-bottom: 0.5rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-weight: 600;
+   line-height: 1.2;
+   color: #212529;
+   font-size: 1.1875rem;
+   letter-spacing: 0em;
+   word-spacing: 0.005em;
+}
+.sec6_border_1{
+   background-color: #636663;
+   border-radius: 0.125rem 0.125rem 0 0;
+   border-top: 4px solid transparent;
+   padding-left: 0.9375rem;
+   pointer-events: none;
+   justify-content: space-between !important;
+}
+.sec6_border_2{
+   background-color: #924a4a;
+   border-radius: 0.125rem 0.125rem 0 0;
+   border-top: 4px solid transparent;
+   padding-left: 0.9375rem;
+   pointer-events: none;
+   justify-content: space-between !important;
+}
+.sec6_border_3{
+   background-color: #636665;
+   border-radius: 0.125rem 0.125rem 0 0;
+   border-top: 4px solid transparent;
+   padding-left: 0.9375rem;
+   pointer-events: none;
+   justify-content: space-between !important;
+}
+
+.sec6_border_4{
+   background-color: #d58658;
+   border-radius: 0.125rem 0.125rem 0 0;
+   border-top: 4px solid transparent;
+   padding-left: 0.9375rem;
+   pointer-events: none;
+   justify-content: space-between !important;
+}
+
+
+.card_heading{
+   font-weight: 500;
+   letter-spacing: 0em;
+   word-spacing: 0.005em;
+   font-size: 1.1875rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-weight: 500;
+   line-height: 1.2;
+   color: #212529;
+   margin-left: 15px;
+   margin-top:5px;
+}
+// .card_footer:last-child{
+//     border-radius: 0 0 calc(0.125rem - 1px) calc(0.125rem - 1px);
+// }
+.card_body{
+   background-color: rgba(255, 255, 255, 0.9) !important;
+   color: #343a40;
+   flex: 1 1 auto;
+   padding: 0.9375rem;
+}
+.card_p{
+
+}
+.card_footer{
+   padding: 0.9375rem 0.9rem;
+   background-color: transparent;
+   border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+.card_footerLink{
+   text-transform: uppercase !important;
+   float: right !important;
+   font-size: 0.8125rem;
+   font-family: "Montserrat", "Odoo Unicode Support Noto", sans-serif;
+   font-weight: 600;
+   line-height: 1.2;
+}
+.link{
+   text-decoration: none;
+    color: #875A7B;
+   
+}
+.link:hover{
+   text-decoration: none;
+   color: #875A7B;;
+}
+.col_items{
+   opacity: .9;
+}
+
+.col_items:hover{
+   opacity: 1;
+}
+.col_items:hover .m_96{
+   color:#86597A;
+   font-weight: 600;
+   
+}
+.col_items:hover .m_97{
+   color:black;
+   font-weight: 450;
+}
+
+.col_items{
+   opacity: .9;
+}
+
+.col_items:hover{
+   opacity: 1;
+}
+.col_items:hover .m_96{
+   color:#86597A;
+   font-weight: 600;
+   
+}
+.col_items:hover .m_97{
+   color:black;
+   font-weight: 450;
+}
